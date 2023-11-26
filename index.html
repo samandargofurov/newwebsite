@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="container navbar">
+        <a href="#" class="logo">Adventure</a>
+        <div class="nav-links">
+            <ul class="active">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Servise</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <p>SG</p>
+            <p>+998932280233</p>
+        </div>
+        <a href="#" class="menubar"><i class="fa-solid fa-bars"></i></a>
+    </nav>
+
+    <header></header>
+
+</body>
+
+<script>
+    const menubar = document.querySelector(".menubar")
+    const navlinks = document.querySelector(".nav-links")
+
+    menubar.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
